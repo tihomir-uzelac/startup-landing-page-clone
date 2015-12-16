@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	text-align: center;
+}
+
+.nav_traka {
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	position: fixed;
+	background-color: #fff;
+}
+
+.logo {
+	height: 26px;
+	width: 26px;
+	float: left;
+	margin: 16px 0 0 346px;
+
+}
+
+.nav_list {
+	float: right;
+	width: auto;
+	margin-right: 320px;
+}
+
+.nav_list ul li {
+	display: inline-block;
+	padding: 10px 25px 10px 0;
+}
+
+
+.nav_list ul li a {
+	text-decoration: none;
+	color: #838994;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.nav_list ul li a:hover {
+	color: black;
+} 
+
+.nav_list ul li .active {
+	color: #4c5058;
+    font-weight: 600;
+}
+
+.main_background {
+	background: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 270px 0;
+	color: #fff;
+	margin-bottom: 120px;
+}
+
+.button {
+	background-color: #F15A29;
+	border-radius: 5px;
+	padding: 16px 32px;
+	border: none;	
+	font-size: 18px;
+}
+
+.button:hover {
+	background-color: orange;
+}
+.main_background h1 {
+	font-size: 50px;
+	font-family: "Roboto";
+	font-weight: 100;
+	margin-bottom: -10px;
+}
+
+.main_background h2 {
+	font-size: 25px;
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+.karma {
+	font-size: 45px;
+	font-family: "Roboto";
+	font-weight: 100;
+}
+
+.three_containers h2 {
+	font-size: 25px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.three_containers div {
+	display: inline-block;
+	margin: 20px 35px;
+}
+.three_containers img {
+	width: 127px;
+	height: 127px;
+}
+
+.footer {
+	margin-top: 80px;
+	border-top: 1px solid #EAEBEC; 
+}
+
+.footer ul li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #EAEBEC;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.footer ul {
+	margin-left: -35px;
+}
+
+.fa-twitter {
+	color: #55ACEE;
+}
+
+.fa-facebook {
+	color: #4C66A4;
+}
+
+.fa-instagram {
+	color: #3F729B;
+}
+
+h5 {
+	color: #838994;
+	margin-bottom: 150px;
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 15px;
+}
